@@ -23,7 +23,7 @@ public class Organism implements Comparable<Organism>{
 	}
 	public int fitness () {
 		int fit = 0;
-		for (int i = 0; i < goal.length() -1; i++)
+		for (int i = 0; i < goal.length(); i++)
 		{
 			if (value.charAt(i) == goal.charAt(i)) 
 			{
